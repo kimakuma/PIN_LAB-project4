@@ -6,7 +6,7 @@ RUN apt-get install python3
 RUN wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -
 RUN echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list 
 RUN apt-get update
-RUN apt-get install -y mongodb-org
+RUN apt-get install -y mongodb-org # 안되는 경우 뒤에 org 빼고
 
 RUN apt-get update
 RUN apt-get upgrade
