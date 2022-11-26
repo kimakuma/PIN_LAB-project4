@@ -57,6 +57,7 @@ docker run --device /dev/snd/ -it { Docker image }
 <img src="https://user-images.githubusercontent.com/76460405/204084157-f98f2178-5799-4da2-88bd-6eb2d32da4bf.png" width="590" height="214">
 
 ### Architecture
+<img src="https://user-images.githubusercontent.com/76460405/204084264-f78f6e4c-fe85-4f4e-92ee-bdeac230467d.png" width="598" height="296">
 
 ---
 
