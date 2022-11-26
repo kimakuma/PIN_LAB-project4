@@ -15,6 +15,7 @@ Distribution WAV file recorder linked Cloud Database based on Docker on Jetson N
 ## Description
 Distribution WAV file recorder linked Cloud Database based on Docker on Jetson Nano board
 - Recording(Saving) WAV file and Playing WAV file via Atlas(MongoDB)
+    - [WAV file description](https://crystalcube.co.kr/123)
 - Distribution via Docker
 
 ---
@@ -40,7 +41,7 @@ pip3 install pymongo
 - More packate to install are in Dockerfile
 
 ### Installing & Setting (based on Docker)
-- docker: [kimakuma8/ubuntu:project4](https://hub.docker.com/layers/kimakuma8/ubuntu/project3/images/sha256-a7c68cba54a68254646067b6d37e700e0ff1d643d7900beafe8b2a5fcd9ea4f2?context=repo)
+- docker: [kimakuma8/ubuntu:project4](https://hub.docker.com/layers/kimakuma8/ubuntu/jetson/images/sha256-efc7f8b444cd68947ad227a118c639c337ffad62fd51a412190ee84dda8400f7?context=repo)
 
 ---
 
