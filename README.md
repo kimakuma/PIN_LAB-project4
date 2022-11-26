@@ -32,8 +32,7 @@ See deployment for notes on how to deploy the project on a live system.
 sudo apt-get install python-pip3
 ```
 
-- Installing the PyMongo
-    - ref: [pyMongo](https://kb.objectrocket.com/mongo-db/how-to-install-pymongo-and-connect-to-mongodb-in-python-363)
+- Installing the [PyMongo](https://kb.objectrocket.com/mongo-db/how-to-install-pymongo-and-connect-to-mongodb-in-python-363)
 ```console
 pip3 install pymongo
 ```
