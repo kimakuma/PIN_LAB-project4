@@ -33,10 +33,10 @@ sudo apt-get install python-pip3
 ```
 
 - Installing the PyMongo
+    - ref: https://kb.objectrocket.com/mongo-db/how-to-install-pymongo-and-connect-to-mongodb-in-python-363
 ```console
 pip3 install pymongo
 ```
-    - ref: https://kb.objectrocket.com/mongo-db/how-to-install-pymongo-and-connect-to-mongodb-in-python-363
 
 - More packate to install are in Dockerfile
 
