@@ -43,7 +43,7 @@ pip3 install pymongo
 ### Installing & Setting (based on Docker)
 - docker: [kimakuma8/ubuntu:project4](https://hub.docker.com/layers/kimakuma8/ubuntu/jetson/images/sha256-efc7f8b444cd68947ad227a118c639c337ffad62fd51a412190ee84dda8400f7?context=repo)
 
-- Setting Sound Devide on Docker
+- Grant sound device permission in Docker
 ```console
 sudo isermod -aG docker $USER
 sudo su - $USER
@@ -54,7 +54,7 @@ docker run --device /dev/snd/ -it { Docker image }
 
 ## Architecture
 ### Docker
-
+<img src="https://user-images.githubusercontent.com/76460405/204084157-f98f2178-5799-4da2-88bd-6eb2d32da4bf.png" width="295" height="107">
 
 ### Architecture
 
