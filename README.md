@@ -3,10 +3,14 @@
 
 Two-Way Real-Time Voice Communication On Raspberry PI
 
+---
+
 ## Navigation
 1. [Description](#Description)
 2. [Getting started](#Getting-Started)
 3. [Architecture](#Architecture)
+
+---
 
 ## Description
 Two-way real-Time voice communication with two Raspberry PI boards
@@ -59,4 +63,5 @@ gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 
 ---
 
+## Stacks
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white"> <img src="https://img.shields.io/badge/Raspbian-A22846?style=for-the-badge&logo=Raspberry Pi&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
